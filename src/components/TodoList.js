@@ -45,9 +45,9 @@ function TodoList() {
       <h1>What's the Plan for Today?</h1>
       <div className="from-brn-detail">
         <TodoForm onSubmit={addTodo} />
-        <div className="clr-btn-det">
-          <button className='clr-btn'>Clear All</button>
-        </div>
+        {/* <div className="clr-btn-det">
+          <button className='clr-btn' onClick={handleCartClearance}>Clear All</button>
+        </div> */}
       </div>
       <Todo
         todos={todos}
